@@ -4,7 +4,7 @@ from ..decorators import feed_touch
 from .theme import styles
 
 
-class HintKeyboard(lv.btnm):
+class HintKeyboard(lv.btnmatrix):
     def __init__(self, scr, *args, **kwargs):
         super().__init__(scr, *args, **kwargs)
         self.hint = lv.btn(scr)

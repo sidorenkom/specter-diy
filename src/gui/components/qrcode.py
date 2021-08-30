@@ -7,15 +7,14 @@ import asyncio
 import platform
 
 qr_style = lv.style_t()
-qr_style.body.main_color = lv.color_hex(0xFFFFFF)
-qr_style.body.grad_color = lv.color_hex(0xFFFFFF)
-qr_style.body.opa = 255
-qr_style.text.opa = 255
-qr_style.text.color = lv.color_hex(0)
-qr_style.text.line_space = 0
-qr_style.text.letter_space = 0
-qr_style.body.radius = 10
-
+# qr_style.body.main_color = lv.color_hex(0xFFFFFF)
+# qr_style.body.grad_color = lv.color_hex(0xFFFFFF)
+# qr_style.body.opa = 255
+# qr_style.text.opa = 255
+# qr_style.text.color = lv.color_hex(0)
+# qr_style.text.line_space = 0
+# qr_style.text.letter_space = 0
+# qr_style.body.radius = 10
 
 class QRCode(lv.obj):
     RATE = 500  # ms
